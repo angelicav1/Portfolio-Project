@@ -1,10 +1,42 @@
 
-h1 {
+h1, h3, h4, h5, h6 {
     color: black;
     font-family: "Playfair Display", serif;
     font-weight: bold;
 }
 
+h1 {
+    font-size: 96px;
+}
+
 p {
     font-family: "Poppins", sans-serif;
+}
+
+.hero {
+    background: #f9f7fe;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: 272142;
+}
+
+.hero h2 {
+    font-family: "Poppins", sans-seri;
+    font-weight: normal;
+    line-height: 2;
+    font-size: 24px;
+}
+
+.btn-branding {
+    background: #6c63ff;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 7px;
+    padding: 12px;
 }
