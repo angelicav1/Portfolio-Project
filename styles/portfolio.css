@@ -27,6 +27,10 @@ h2 {
     font-size: 96px;
 }
 
+h4 {
+font-size: 48px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -100,16 +104,45 @@ border-radius: 4px;
   padding: 15px 30px;
 }
 
-.email-link {
-  display: flex;
-  justify-content: center;
- font-family: var(--default-font-family);
-  font-size: 28px;
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
   text-decoration: none;
+  color: var(--branding-color);
+  font-size: 24px;
+  text-align: center;
 }
 
 .email-link:hover {
+  color: var(--secondary-color);
   text-decoration: underline;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: whitesmoke;
+  background: var(--branding-color);
 }
 
 .project-description {
@@ -157,6 +190,12 @@ nav li.active a  {
     h2 {
         font-size: 44px;
     }
+
+    h4 {
+      font-size: 26px;
+    }
+
+
 .hero {
   padding: 80px 20px;
 }
