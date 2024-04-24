@@ -170,4 +170,12 @@ nav li.active a  {
         padding: 0;
         text-align: center;
     }
+
+    .logo-small {
+      width: 40%;
+    }
+
+    nav a {
+      font-size: 12px;
+    }
 }
