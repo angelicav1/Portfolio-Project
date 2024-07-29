@@ -150,7 +150,8 @@ footer .social-links a:hover {
 }
 
 .logo {
-  max-width: 150px;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
 }
 
 nav {
